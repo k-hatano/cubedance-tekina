@@ -1,0 +1,11 @@
+
+body {
+	position: relative;
+	text-align: center;
+}
+
+#canvas {
+	width: 640px;
+	height: 640px;
+	margin: auto;
+}
