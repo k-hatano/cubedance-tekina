@@ -16,10 +16,10 @@ function init() {
 }
 
 function calculateXY(x, y, z) {
-    let drawX = x * unitWidth + 18 - canvasHeight * 1.2;
-    let drawY = canvasHeight - (y * unitWidth + 18) + canvasHeight * 0.2;
-    drawX += z * 22;
-    drawY -= z * 22 - x * 4;
+    let drawX = x * unitWidth + 18 - canvasHeight * 1.3;
+    let drawY = canvasHeight - (y * unitWidth + 18) + canvasHeight * 0.3;
+    drawX += z * 24;
+    drawY -= z * 24;
     return {x: drawX, y: drawY};
 }
 
